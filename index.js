@@ -8,6 +8,11 @@ module.exports = {
     var merge        = require('broccoli-merge-trees');
 
     return this._super.treeForAddon.call(this, merge([version(), dir]));
+  },
+  options: {
+    babel: {
+      plugins: ['transform-object-rest-spread']
+    }
   }
 };
 /* eslint-enable */

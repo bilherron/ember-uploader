@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^4.1.8",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "0.7.1",
     "ember-cli": "2.5.0",
@@ -61,7 +62,7 @@
     "uploader"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6",
+    "ember-cli-babel": "^6.6.0",
     "broccoli-file-creator": "^1.0.1",
     "broccoli-merge-trees": "^1.0.0"
   },
